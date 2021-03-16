@@ -1,4 +1,6 @@
 nav {
+    display: flex;
+    align-items: center;
     width: 100vw;
     height: 12vh;
     padding-left: 8rem;
@@ -8,8 +10,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    width: 94%;
+    width: 85%;
     height: 100%;
+    padding-left: 1rem;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -18,15 +21,6 @@ nav {
     font-size: 1.4rem;
     list-style: none;
     font-weight: 300;
-}
-
-.nav-item a {
-    text-decoration: none;
-    list-style: none;
-    color: black;
-}
-.nav-item a:hover {
-    color: #F17D21;
 }
 
 .logo {
@@ -47,24 +41,48 @@ nav {
     border-radius: 6px;
     margin-left: 7rem;
     box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
-}
-
-.ebay-button:hover {
+  }
+  
+  .ebay-button:hover {
     background-color: #e4771d;
+    color: white;
     transition: 0.3s;
-}
+  }
 
 .nav-button { 
     right: 0;
     margin-left: 55%; 
 } 
 
+.show-on-mobile a {
+    display: none;
+}
+
 @media (max-width: 1344px) {
     .nav-button {
         margin-left: 10%;
     }
-/* Move button to the right. Add hamburger?
-@media (max-width: 675px) {
-*/
-
 } 
+
+@media (max-width: 700px) {
+    nav {
+        padding: 1rem;
+        height: 15vh;
+    }
+
+    .nav-items {
+        display: block;
+        text-align : right;
+    }
+
+    .nav-item {
+        padding-bottom: 0.4rem;
+    }
+
+    .nav-button {
+        display: none;
+    }
+    .show-on-mobile a {
+        display: block;
+    }
+}

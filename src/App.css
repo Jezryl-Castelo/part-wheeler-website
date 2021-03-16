@@ -11,3 +11,14 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   overflow-x: hidden;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  color: #F17D21;
+}
+

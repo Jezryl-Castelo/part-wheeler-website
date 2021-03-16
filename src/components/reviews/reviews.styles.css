@@ -11,16 +11,22 @@
 .review-description {
     font-size: 1.6rem;
     font-weight: 300;
-    margin: 0 auto;
+    margin: 1rem auto 3rem;
 }
 
 .feedback {
-    width: 40%;
-    margin: 3rem auto;
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 6rem;
 }
 
 .feedback td {
     background: white;
+}
+
+.feedback td.second {
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .auction-nudge {
@@ -31,4 +37,14 @@
 #auction-nudge-items {
     margin: 0 auto;
     padding: 0;
+}
+
+@media (max-width: 900px) {
+    .reviews {
+        width: 80%;
+    }
+    .feedback {
+        width: 100%;
+        padding: 0;
+    }
 }
