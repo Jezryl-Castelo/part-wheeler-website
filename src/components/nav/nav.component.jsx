@@ -19,7 +19,7 @@ const Nav = (props) => {
             <li className="nav-item"> <a href="/#review">REVIEWS</a></li>
             <li className="nav-item"><a href="/contact">CONTACT
             </a></li>
-            <a to="/contact" href="https://www.ebay.com/usr/partwheeler?_trksid=p2047675.l2559"className="ebay-button nav-button">Visit our Ebay Store</a>
+            <a to="/contact" href="https://www.ebay.com/usr/partwheeler?_trksid=p2047675.l2559"className="ebay-button nav-button" target="_blank" rel="noreferrer">Visit our Ebay Store</a>
             <li className="nav-item show-on-mobile"><a href="https://www.ebay.com/usr/partwheeler?_trksid=p2047675.l2559">EBAY STORE</a></li>
         </ul>
         </nav>
