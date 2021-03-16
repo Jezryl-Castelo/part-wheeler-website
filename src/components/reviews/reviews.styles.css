@@ -1,0 +1,34 @@
+.reviews {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.review-title {
+    font-size: 2.4rem;
+    margin: 1.6rem auto;
+}
+.review-description {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.feedback {
+    width: 40%;
+    margin: 3rem auto;
+}
+
+.feedback td {
+    background: white;
+}
+
+.auction-nudge {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 90%;
+    margin: 10px auto;
+}
+#auction-nudge-items {
+    margin: 0 auto;
+    padding: 0;
+}

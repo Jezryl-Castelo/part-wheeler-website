@@ -1,0 +1,44 @@
+.contact-title {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 8rem;
+   
+}
+.contact-container{
+    display: grid;
+    height: 52vh;
+    grid-template-areas: 
+    "questions contact-info";
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 10rem;
+    text-align: center; 
+}
+
+.question {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0.5rem auto;
+}
+
+.contact {
+    font-weight: 300;
+    padding-left: 20px;
+}
+.contact-info-container {
+    border-left: 4px solid gray;
+    height: 20%;
+
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 7rem;
+}
+
+.icon {
+   height: 40px;
+   position: relative;
+}
+

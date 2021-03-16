@@ -1,0 +1,49 @@
+
+
+.header-container {
+    display: grid;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 600px;
+    padding: 8rem;
+    background-image: url('../../assets/img/parts-filter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-areas:
+    "heading"
+    "description"
+    "button";
+    grid-template-columns: 100%;
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-title {
+    grid-area: heading;
+    margin-top: 2rem;
+    font-size: 4rem;
+    width: 100%;
+}
+
+.header-description {
+    width: 79%;
+    grid-area: description;
+    font-weight: 300;
+    font-size: 2.4rem;
+    padding-left: 6.8rem;
+    padding-top: 1.5rem;
+}
+
+.long-arrow {
+    grid-area: description;
+    margin-left: 79%;
+    margin-top: 3rem;
+    width: 30%; 
+}
+
+@media (max-width: 975px) {
+    .header-description {
+    padding-left: 2.8rem;
+    font-size: 2rem;
+    }
+}

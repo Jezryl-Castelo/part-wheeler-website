@@ -1,0 +1,32 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    height: 20vh;
+    background-color: #537188;
+}
+
+.footer {
+    font-weight: 300;
+    list-style: none;
+}
+
+.footer-link {
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.2rem;  
+}
+
+/* .footer-link:hover {
+   color: #F17D21;
+} */
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    color: #F17D21;
+}

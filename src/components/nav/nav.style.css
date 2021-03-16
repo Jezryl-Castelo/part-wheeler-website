@@ -1,0 +1,62 @@
+nav {
+    width: 100vw;
+    height: 12vh;
+    padding-left: 8rem;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 94%;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    font-size: 1.4rem;
+    list-style: none;
+    font-weight: 300;
+}
+
+.nav-item a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.logo {
+    height: 72px;
+}
+
+.ebay-button {
+    height: 48px;
+    width: 200px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F17D21;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    margin-left: 7rem;
+    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-button { 
+    right: 0;
+    margin-left: 55%; 
+} 
+
+@media (max-width: 1344px) {
+    .nav-button {
+        margin-left: 10%;
+    }
+/* Move button to the right. Add hamburger?
+@media (max-width: 675px) {
+*/
+
+} 
