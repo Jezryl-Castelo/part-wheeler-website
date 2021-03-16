@@ -13,17 +13,16 @@ useEffect(() => {
     document.body.appendChild(script);
 }, [])
 return(
-        <div>
-            
-        <div className="product">
-          <h3 className="product-title">Products</h3>
-          <h4 className="product-description">Specializing in Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beats voluptate, pisa veldt provident id  dolores ornis, in impeding.</h4>
-          </div>
-          <div className="products">
-            <div id="auction-nudge-items" className="auction-nudge">
-            </div>
-          </div>
-          </div>
+  <div>
+    <div className="product">
+      <h3 className="product-title">Products</h3>
+      <h4 className="product-description">Specializing in Engine Control Modules(ECU), Audio Radio Amplifiers, Fuse Boxes, and much more.</h4>
+      </div>
+      <div className="products">
+      <div id="auction-nudge-items" className="auction-nudge">
+     </div>
+    </div>
+  </div>
     )
 }
 

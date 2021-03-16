@@ -1,6 +1,4 @@
 import React from 'react';
-import { withRouter } from 'react-router';
-
 
 import Header from '../../components/header/header.component';
 import ProductFeed from '../../components/product-feed/product-feed-component';
@@ -17,4 +15,4 @@ const Homepage = () => {
     )
 }
 
-export default withRouter(Homepage);
+export default Homepage;

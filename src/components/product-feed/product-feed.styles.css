@@ -19,14 +19,12 @@
     width: 90%;
     margin: 0 auto;
 }
-#auction-nudge-items {
-    margin: 0 auto;
-    padding: 0;
+#an-item-wrap {
+    padding-left: 5%;
+    
 }
 
-#an-item-wrap {
-    margin: 0 auto;
-}
+
 #an-cats-nav,
 #an-search-box {
     height: 40px;
