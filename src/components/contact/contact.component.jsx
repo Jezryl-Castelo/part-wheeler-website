@@ -11,15 +11,15 @@ const Contact = () => {
                 Contact Us
             </h3>
             <div className="contact-container">
-              <div className="contact-questions">
+              <div     className="contact-questions">
                 <h5 className="question">
                 Do you have any questions?
                 </h5>
                 <h5 className="question">
                 Need to return an item?
                 </h5>
-                </div>
-                <div className="contact-info-container">
+              </div>
+              <div className="contact-info-container">
                 <div className="contact-info">
                   <img className="icon" src={email} alt="email icon" />
                   <p className="contact">partwheeler@gmail.com</p>
