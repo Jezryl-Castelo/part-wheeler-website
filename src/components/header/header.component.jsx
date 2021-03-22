@@ -18,6 +18,6 @@ const Header = () => {
       </section>
       </div>
     )
-}
+};
 
 export default Header; 
