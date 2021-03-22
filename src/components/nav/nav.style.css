@@ -67,7 +67,7 @@ nav {
 @media (max-width: 700px) {
     nav {
         padding: 1rem;
-        height: 17vh;
+        height: 18vh;
     }
 
     .nav-items {

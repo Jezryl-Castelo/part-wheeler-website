@@ -62,3 +62,15 @@ div#auction-nudge-items ul.an-page-wrap {
 div#auction-nudge-items .an-view a {
     color: orange;
 }
+
+@media (max-width: 800px) {
+    .product {
+        width: 90%;
+    }
+    .product-title {
+        font-size: 2rem;
+    }
+    .product-description {
+        font-size: 1.4rem;
+    }
+}
