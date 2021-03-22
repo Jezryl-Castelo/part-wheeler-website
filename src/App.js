@@ -1,4 +1,3 @@
-import React from 'react';
 
 import Nav from './components/nav/nav.component';
 import Homepage from './pages/homepage/homepage.component';
@@ -21,8 +20,8 @@ function App() {
       exact>
           <Homepage />
         </Route>
-        <Route path="/contact" exact>
-          <ContactPage />     
+        <Route path="/contact" exact component={ContactPage}>
+          {/* <ContactPage />      */}
         </Route> 
       </Switch>
       </Router>

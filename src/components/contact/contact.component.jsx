@@ -1,4 +1,3 @@
-import React from 'react';
 
 import '../contact/contact.styles.css';
 import email from '../../assets/img/email.svg';
