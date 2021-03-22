@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7daf7c11.chunk.css",
+    "main.js": "/static/js/main.bfcf0854.chunk.js",
+    "main.js.map": "/static/js/main.bfcf0854.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c88ad178.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c88ad178.js.map",
+    "static/js/2.116fe500.chunk.js": "/static/js/2.116fe500.chunk.js",
+    "static/js/2.116fe500.chunk.js.map": "/static/js/2.116fe500.chunk.js.map",
+    "static/js/3.7d194c27.chunk.js": "/static/js/3.7d194c27.chunk.js",
+    "static/js/3.7d194c27.chunk.js.map": "/static/js/3.7d194c27.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7daf7c11.chunk.css.map": "/static/css/main.7daf7c11.chunk.css.map",
+    "static/js/2.116fe500.chunk.js.LICENSE.txt": "/static/js/2.116fe500.chunk.js.LICENSE.txt",
+    "static/media/email.8bce9b5f.svg": "/static/media/email.8bce9b5f.svg",
+    "static/media/part-wheeler-logo.5182c75d.png": "/static/media/part-wheeler-logo.5182c75d.png",
+    "static/media/header.style.css": "/static/media/parts-filter.741c86bf.png",
+    "static/media/phone-voice.e19a8c66.svg": "/static/media/phone-voice.e19a8c66.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c88ad178.js",
+    "static/js/2.116fe500.chunk.js",
+    "static/css/main.7daf7c11.chunk.css",
+    "static/js/main.bfcf0854.chunk.js"
+  ]
+}
